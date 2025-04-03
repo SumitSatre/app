@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/nodejs-app
+    destination: /home/ec2-user/nodejs-dummy-project-to-deploy
 permissions:
-  - object: /home/ec2-user/nodejs-app
+  - object: /home/ec2-user/nodejs-dummy-project-to-deploy
     owner: ec2-user
     group: ec2-user
 hooks:
